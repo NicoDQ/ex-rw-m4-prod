@@ -41,7 +41,7 @@ public class SecurityConfig {
                                 .anyRequest().authenticated()
 
                 )
-                .cors(Customizer.withDefaults())
+                //.cors(Customizer.withDefaults())
                 .sessionManagement(session -> session
                         .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 );

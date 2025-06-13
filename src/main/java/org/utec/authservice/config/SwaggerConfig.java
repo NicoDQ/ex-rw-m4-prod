@@ -17,7 +17,7 @@ public class SwaggerConfig {
         final String securitySchemeName = "bearerAuth";
 
         return new OpenAPI()
-                .info(new Info().title("Test API").version("1.0"))
+                .info(new Info().title("API de Login").version("1.0"))
                 .servers(List.of(
                         new Server().url("https://ex-rw-m4-prod-production.up.railway.app")
                 ))
