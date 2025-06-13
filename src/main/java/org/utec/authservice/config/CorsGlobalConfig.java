@@ -16,7 +16,7 @@ public class CorsGlobalConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         // En producción, debemos reemplazar "*" por el dominio real del frontend
-        config.setAllowedOrigins(List.of("*"));
+        config.setAllowedOrigins(List.of("ex-rw-m4-prod-production.up.railway.app"));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
         config.setAllowCredentials(true);
